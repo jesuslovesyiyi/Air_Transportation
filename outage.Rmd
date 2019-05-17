@@ -5,3 +5,8 @@ date: "May 17, 2019"
 output: html_document
 ---
 
+```{r}
+library(RODBC)
+channel <- odbcDriverConnect("H:\\LS_Project\\outage\\Outages_08_03_2018.accdb")
+```
+
